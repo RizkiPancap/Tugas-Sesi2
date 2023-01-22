@@ -1,0 +1,32 @@
+Step by step
+
+1. siapkan akun github dan repository nya
+jangan lupa install git nya 
+2.buat repository baru atau gunakan yang sudah
+ada, tapi disini saya akan menggunakan repository baru
+3.sekarang ke folder yang mau di upload ke github
+4.lalu lakukan command git init 
+5.sebelum nya saya belum melakukan configurasi jadi lakukan configurasi
+terlebih dahulu
+command nya 
+git config --global user.name "usernamekalian"
+git config --global user.email emailkalian
+6.selanjut nya git add file yang mau di commit/upload ke github nanti
+command nya
+git add . untuk add semua isi folder ataupun file
+git add namafile untuk file tertentu 
+
+7. langsung saja commit ke github dengan command
+git commit -m "komentar kalian"
+
+8. jangan lupa git branch -M main
+
+9.lalu remote ke repository masing masing
+command nya:
+git remote add origin urlrepositorykalian
+
+10.step terakhir yaitu push ke github dengan command:
+git push -u origin main
+
+sekian dan terimakasih tutorial push ke github dari saya mohon maaf 
+jika ada kekurangan .
